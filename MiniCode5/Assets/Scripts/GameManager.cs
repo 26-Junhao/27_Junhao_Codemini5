@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         }
         if (GameManager.instance.levelTime < 0)
         {
-            TimeLimit.GetComponent<Text>().text = "LevelTime: 00:00:00 ";
+            TimeLimit.GetComponent<Text>().text = "LevelTime: 00:00:000";
         }
     }
     public string FormatTime(float time)
